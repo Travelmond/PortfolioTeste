@@ -9,21 +9,22 @@ using System.Threading.Tasks;
 
 namespace Calculadora_
 {
+
     public class Calculo
     {
+        static void Main() { }
+            public int Area(int d1, int d2)
+            {
+                return (d1 * d2) / 2;
+            }
 
-        public int Area(int d1, int d2)
-        {
-            return (d1 * d2) / 2;
+            public int Perimetro(int l)
+            {
+                return l * 4;
+            }
+
         }
-
-        public int Perimetro(int l)
-        {
-            return l * 4;
-        }
-
-    }
-
+    
 
 }
 
